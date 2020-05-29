@@ -1,0 +1,108 @@
+/* You can add global styles to this file, and also import other style files */
+html {
+  font-size: 15px;
+  color: #595959;
+}
+
+.vertical-center {
+  align-items: center;
+}
+
+.project_heading {
+  background-color: #c2f5aa;
+  padding: 0px 50px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px #ced4da;
+}
+
+.project_heading_wrapper {
+  padding: 26px;
+}
+
+.project_image {
+  max-height: 100px;
+}
+
+.project_list .top {
+  position: relative;
+}
+
+.project_list .top .title {
+  position: absolute;
+  bottom: 20px;
+  left: 16px;
+  font-size: 20px;
+  background-color: #000000a8;
+  padding: 8px;
+}
+
+.project_list .top .buy_now {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.project_list .top .buy_now .btn-success.btn-buy-now {
+  background-color: #0b8d36;
+}
+
+.project_list .top .price {
+  font-size: 14px;
+  background-color: #000000a8;
+  padding: 6px;
+  margin-top: 4px;
+}
+
+.project_list .top .img {
+  width: 100%;
+  max-height: 300px;
+}
+
+.project_list .card-body .title {
+  color: #db3e73;
+  font-weight: 500;
+}
+
+.project_list .card-body .sub-title {
+  color: #0b8d36;
+  padding: 6px 0px;
+  font-weight: 500;
+}
+
+.project_list .card-body .description {
+  height: 45px;
+  overflow: hidden;
+  font-weight: 500;
+}
+
+.mb-10 {
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1120px) {
+  .header-title h2 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .header-title h2 {
+    font-size: 18px;
+  }
+
+  .project_heading_wrapper {
+    padding: 0px;
+  }
+}
+
+
+@media only screen and (max-width: 520px) {
+  .project_list .top .title {
+    left: 0px;
+    font-size: 14px;
+  }
+
+  .header-title h2 {
+    font-size: 16px;
+  }
+}

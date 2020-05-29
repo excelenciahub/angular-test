@@ -1,0 +1,51 @@
+<body class="bg-light">
+    <div class="container-fluid mt-2">
+        <div class="project_heading">
+            <div class="row vertical-center project_heading_wrapper">
+                <div class="col-md-4 text-center mb-2 mt-2">
+                    <img src="assets/images/projects.png" class="project_image" />
+                </div>
+                <div class="col-md-8 text-center">
+                    <div class=header-title>
+                        <h2>Our environmental projects are providing</h2>
+                        <h2>many environmental benefits around the world.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project_list mt-3">
+            <div class="row">
+                <div *ngFor="let post of posts; let i = index" class="col-md-6 mb-10">
+                    <div class="card">
+                        <div class="top">
+                            <img *ngIf="post.image" [src]="post.image" class="img" />
+                            <span class="title badge badge-dark">{{post.title}}</span>
+                            <div *ngIf="post.isBuy" class="buy_now text-center">
+                                <button type="button" class="btn btn-lg btn-success btn-buy-now">Buy Now</button>
+                                <br />
+                                <span class="price badge badge-dark">${{post.price}}/ton</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="title">{{post.subTitle}}</div>
+                            <div class="sub-title">{{post.offset}}</div>
+                            <div class="description">{{post.description}}</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-md-6">
+                    <div class="card">
+                        <div class="top">
+                            <img src="../../../assets/images/Tile_Image.jpg" class="img" />
+                            <span class="title badge badge-dark">KARIBA REDD+-ZIMBABWE</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="title">Reduced Emissions from Deforestation and Degradation</div>
+                            <div class="sub-title">957,842 ls. offset</div>
+                            <div>Protects forests and wildlife on the southern shores of Lake Kariba in Zimbabwe, formaing a giant biodiversity corridor.</div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>

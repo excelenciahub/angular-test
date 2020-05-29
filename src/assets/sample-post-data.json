@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "image": "../../../assets/images/Tile_Image.jpg",
+        "isBuy": true,
+        "price": 7.50,
+        "title": "KARIBA REDD+-ZIMBABWE",
+        "subTitle": "Reduced Emissions from Deforestation and Degradation",
+        "offset": "957,842 lbs. offset",
+        "description": "Protects forest and wildlife on the southern shores of Lake Kariba in Zimbabwe, forming a giant biodiversity corrider."
+    },
+    {
+        "id": 3,
+        "image": "../../../assets/images/Tile_Image.jpg",
+        "isBuy": false,
+        "price": 0,
+        "title": "ARCATA SUNNYBRAE TRACT - USA",
+        "subTitle": "Improved forest Management",
+        "offset": "710,093 lbs. offset",
+        "description": "Protects forest and wildlife on the southern shores of Lake Kariba in Zimbabwe, forming a giant biodiversity corrider."
+    },
+    {
+        "id": 3,
+        "image": "../../../assets/images/Tile_Image.jpg",
+        "isBuy": false,
+        "price": 0,
+        "title": "WOLF CREEK LANDFILL - USA",
+        "subTitle": "Landfill Methane Gas Capture",
+        "offset": "2,005,214 lbs. offset",
+        "description": "Protects forest and wildlife on the southern shores of Lake Kariba in Zimbabwe, forming a giant biodiversity corrider."
+    },
+    {
+        "id": 4,
+        "image": "../../../assets/images/Tile_Image.jpg",
+        "isBuy": false,
+        "price": 0,
+        "title": "TERRAPASS MIXED PORTFOLIO - MIXED",
+        "subTitle": "Mixed",
+        "offset": "2,005,214 lbs. offset",
+        "description": "Protects forest and wildlife on the southern shores of Lake Kariba in Zimbabwe, forming a giant biodiversity corrider."
+    },
+    {
+        "id": 5,
+        "image": "../../../assets/images/Tile_Image.jpg",
+        "isBuy": false,
+        "price": 0,
+        "title": "GASTON COUNTY LANDFILL - USA",
+        "subTitle": "Landfill Methane Gas Capture",
+        "offset": "721,663 lbs. offset",
+        "description": "Protects forest and wildlife on the southern shores of Lake Kariba in Zimbabwe, forming a giant biodiversity corrider."
+    },
+    {
+        "id": 6,
+        "image": "../../../assets/images/Tile_Image.jpg",
+        "isBuy": true,
+        "price": 7.50,
+        "title": "MYAMYN CONSERVATION AUSTRALIA",
+        "subTitle": "Reforestation & Hyrdopower",
+        "offset": "995,908 lbs. offset",
+        "description": "Protects forest and wildlife on the southern shores of Lake Kariba in Zimbabwe, forming a giant biodiversity corrider."
+    },
+    {
+        "id": 7,
+        "image": "../../../assets/images/Tile_Image.jpg",
+        "isBuy": false,
+        "price": 0,
+        "title": "NATURAL PACT LAND ART - CASTA RICA",
+        "subTitle": "Reforestation through Land Art",
+        "offset": "327 lbs. offset",
+        "description": "Protects forest and wildlife on the southern shores of Lake Kariba in Zimbabwe, forming a giant biodiversity corrider."
+    },
+    {
+        "id": 8,
+        "image": "../../../assets/images/Tile_Image.jpg",
+        "isBuy": true,
+        "price": 22.50,
+        "title": "NATURE LAB URBAN FORESTRY - CANADA",
+        "subTitle": "Urban Reforestation",
+        "offset": "13,033 lbs. offset",
+        "description": "Protects forest and wildlife on the southern shores of Lake Kariba in Zimbabwe, forming a giant biodiversity corrider."
+    }
+]
